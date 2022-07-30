@@ -1,0 +1,157 @@
+/*Обнуление*/
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;color: #000;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+  background-color: #FDF5F1;
+}
+/*HEADER*/
+
+.wrapper{
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+.container{
+  width: 80%;
+  min-height: 50px;
+  margin: 0 auto;
+}
+.header{
+  position: sticky;
+  min-width: 100%;
+  background-color: #E7B2A5;
+  font-size: 20px;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+.menu_header{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  font-family: 'Revalia';
+  padding-top: 1%;
+  margin: 0 10% 0 10%;
+}
+.logo{
+  font-weight: 500;
+}
+
+
+
+
+
+/*MAIN*/
+.main{
+  width: 100%;
+  flex: 1 0 auto;
+}
+.name{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Revalia';
+  padding-top: 3%;
+}
+.trener{
+  float: left;
+  display: block;
+  width: 20%;
+  margin-left: 25%;
+  padding-top: 3%;
+}
+.fitnes{
+  float: right;
+  display: block;
+  width: 20%;
+  margin-right: 25%;
+  padding-top: 2%; 
+}
+.trener_text{
+  font-size: 25px;
+  margin-left: 22%;
+  padding-top: 3%;
+  float: left;
+  font-weight: 600;
+  text-align: center;
+}
+.fitnes_text{
+  font-size: 25px;
+  margin-right: 24%;
+  padding-top: 3%;
+  float: right;
+  font-weight: 600;
+  text-align: center;
+}
+.verh{
+  display: block;
+  width: 100%;
+  height: 430px;
+}
+.intervie{
+  font-size: 25px;
+  padding-bottom: 3%;
+}
+
+
+
+
+/*FOOTER*/
+.footer{
+  background-color: #5A5A5A;
+  flex: 0 0 auto;
+  min-height: 8%;
+}
+.soc{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: ;
+  align-items: center;
+  font-family: 'Revalia';
+  color: #fff;
+  font-size: 20px;
+}
+.photo{
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+}
