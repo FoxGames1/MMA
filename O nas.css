@@ -155,3 +155,50 @@ body{
   width: 25%;
   margin: 0 auto;
 }
+
+
+/*MEDIA*/
+
+@media (max-width: 540px){
+  .verh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .trener{
+   float: left;
+   display: block;
+   width: 40%;
+   margin: 0 auto;
+   margin-right: 50%;
+   padding-top: 8%;
+  }
+.fitnes{
+    float: right;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-right: 50%;
+    padding-top: 5%; 
+  }
+  .trener_text{
+    font-size: 20px;
+    margin: 0;
+    margin-left: 50%;
+    margin-top: -80%;
+    float: right;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+  }
+.fitnes_text{
+    font-size: 20px;
+    margin: 0;
+    margin-left: 53%;
+    padding-top: 19%;
+    float: right;
+    font-weight: 600;
+    text-align: center;
+    position: relative; 
+  }
+}
