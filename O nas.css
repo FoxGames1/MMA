@@ -159,7 +159,7 @@ body{
 
 /*MEDIA*/
 
-@media (max-width: 540px){
+@media screen and (max-width: 540px){
   .verh{
     display: flex;
     flex-direction: column;
@@ -200,5 +200,9 @@ body{
     font-weight: 600;
     text-align: center;
     position: relative; 
+  }
+  .intervie{
+    font-size: 25px;
+    padding-top: 15%;
   }
 }
