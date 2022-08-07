@@ -58,7 +58,7 @@ body{
 .header{
   position: sticky;
   min-width: 100%;
-  background-color: #E7B2A5;
+  background-color: #000;
   font-size: 20px;
   left: 0;
   top: 0;
@@ -72,6 +72,8 @@ body{
   font-family: 'Revalia';
   padding-top: 1%;
   margin: 0 10% 0 10%;
+  color: #fff;
+  z-index: 2;
 }
 .logo{
   font-weight: 500;
@@ -79,7 +81,19 @@ body{
 .txt{
   width: 50%;
 }
+a.asist,a.logo{
+  color: #fff;
 
+}
+a.asist:hover{
+  color: red;
+  text-decoration: underline;
+
+}
+a.logo:hover{
+  color: red;
+  text-decoration: underline;
+}
 
 
 
