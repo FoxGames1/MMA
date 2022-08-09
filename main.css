@@ -188,4 +188,81 @@ a.logo:hover{
 }
 
 
+@media (max-width: 540px){
+  .header {
+    position: sticky;
+    min-width: 100%;
+    background-color: #000;
+    font-size: 19px;
+    left: 0;
+    top: 0;
+    z-index: 50;
+  }
+  .fight {
+    width: 100%;
+    display: block;
+}
+  .group {
+    width: 100%;
+    display: block;
+    border-radius: 30px;
+    margin-top: 10%;
+    position: relative;
+    align-items: center;
+}
+  .group_text {
+    font-size: 33px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    height: 37vh;
+}
+  .text_big {
+    text-align: center;
+    font-size: 33px;
+    width: 90vw;
+    height: 10vh;
+}
+  .line {
+    font-size: 33px;
+    width: 90vw;
+    padding-top: 180%;
+    text-align: center;
+    color: #000;
+}
+  .name_2 {
+    text-align: center;
+    font-size: 50px;
+    width: 90vw;
+}
+  .icons {
+    display: flex;
+    width: 23vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+  .icon_1 {
+    width: 100%;
+    padding-top: 5%;
+}
+  .txt_icons {
+    height: 57vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60vw;
+    margin-top: -487px;
+    margin-left: 29.5%;
+}
+  .text_icons {
+    font-size: 25px;
+    width: 80%;
+    text-align: left;
+    padding-top: 15%;
+}
+}
+
 
