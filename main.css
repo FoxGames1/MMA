@@ -215,18 +215,18 @@ a.logo:hover{
     width: 100%;
     text-align: center;
     margin-top: 5%;
-    height: 37vh;
+    height: 47vh;
 }
   .text_big {
     text-align: center;
     font-size: 33px;
-    width: 90vw;
-    height: 10vh;
+    width: 80vw;
+    height: 100vh;
 }
   .line {
     font-size: 33px;
     width: 90vw;
-    padding-top: 180%;
+    padding-top: 40%;
     text-align: center;
     color: #000;
 }
@@ -234,6 +234,7 @@ a.logo:hover{
     text-align: center;
     font-size: 50px;
     width: 90vw;
+    height: 36vh;
 }
   .icons {
     display: flex;
@@ -241,21 +242,20 @@ a.logo:hover{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-left: 10%;
 }
   .icon_1 {
     width: 100%;
     padding-top: 5%;
 }
   .txt_icons {
-    height: 57vh;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-end;
     width: 60vw;
-    margin-top: -487px;
-    margin-left: 29.5%;
+    margin-top: -475px;
+    margin-left: 23%;
 }
   .text_icons {
     font-size: 25px;
