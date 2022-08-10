@@ -245,7 +245,7 @@ a.logo:hover{
 }
   .icon_1 {
     width: 100%;
-    padding-top: 5%;
+    padding-top: 15%;
 }
   .txt_icons {
     height: 80vh;
@@ -254,14 +254,14 @@ a.logo:hover{
     flex-direction: column;
     align-items: flex-end;
     width: 60vw;
-    margin-top: -475px;
-    margin-left: 23%;
+    margin-top: -507px;
+    margin-left: 21%;
 }
   .text_icons {
     font-size: 25px;
     width: 80%;
     text-align: left;
-    padding-top: 15%;
+    padding-top: 18%;
 }
 }
 
