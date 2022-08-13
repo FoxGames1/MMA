@@ -263,6 +263,14 @@ a.logo:hover{
     text-align: left;
     padding-top: 18%;
 }
+  .privacy, .number{
+    display: none;
+  }
+  .soc{
+    padding-top: 5%;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 
