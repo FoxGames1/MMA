@@ -107,11 +107,14 @@ a.asist:hover{
   align-items: center;
   margin: 0 auto;
   padding-top: 1%;
+  font-family: 'Tahoma' serif;
   padding-bottom: 1%;
   font-size: 50px;
 }
 .photo_1{
   width: 70%;
+  border: 4px #000 solid;
+  border-radius: 70px;
 }
 .txt_1{
   padding-bottom: 1%;

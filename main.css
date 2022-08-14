@@ -54,6 +54,7 @@ body{
   width: 80%;
   min-height: 50px;
   margin: 0 auto;
+
 }
 .header{
   position: sticky;
@@ -189,6 +190,9 @@ a.logo:hover{
 
 
 @media (max-width: 540px){
+  .container{
+    height: 60px;
+  }
   .header {
     position: sticky;
     min-width: 100%;
